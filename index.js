@@ -24,7 +24,7 @@ app.post('/create_preference', async (req, res) => {
         },
       ],
       back_urls: {
-        success: 'https://santa-dallah-front-end-gpwv.vercel.app/pagamento/success', // ✅ URL do seu front
+        success: 'https://santa-dallah-front-end-gpwv.vercel.app/', // ✅ URL do seu front
         failure: 'https://santa-dallah-front-end-gpwv.vercel.app/pagamento/failure',
         pending: 'https://santa-dallah-front-end-gpwv.vercel.app/pagamento/pending',
       },
